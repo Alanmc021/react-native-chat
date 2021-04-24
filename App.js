@@ -8,14 +8,7 @@ import * as firebase from 'firebase'
 import 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD4VjnH-VdS8U3wCh-UAhtWBieLARlnNio",
-    authDomain: "flapp-c0888.firebaseapp.com",
-    databaseURL: "https://flapp-c0888.firebaseio.com",
-    projectId: "flapp-c0888",
-    storageBucket: "flapp-c0888.appspot.com",
-    messagingSenderId: "189172496220",
-    appId: "1:189172496220:web:f566b38eedef06036b3399",
-    measurementId: "G-CPJ2E8XSG1"
+    //your firebase credentials
 }
 
 if (firebase.apps.length === 0) {
